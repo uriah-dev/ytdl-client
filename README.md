@@ -18,7 +18,7 @@ import ytdl_client from "ytdl-client";
 const ytdl_client = require("ytdl-client");
 
 ytdl_client({
-    proxyUrl: 'https://cors-anywhere.herokuapp.com/',
+    proxyUrl: '', //any proxy can be used here eg:https://cors-anywhere.herokuapp.com/ or http://localhost:8080
     // proxyquireStubs: {}, arguments mapped directly to proxyquireify
     // For more info, see https://www.npmjs.com/package/proxyquireify
 })
@@ -26,3 +26,6 @@ ytdl_client({
     .then(info=>console.log(info))
     .catch(err=>{throw err;});
 ```
+
+You should remember to make it awaitable
+You can use **cors anywhere** to set up a proxy
