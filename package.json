@@ -1,0 +1,24 @@
+{
+  "name": "ytdl-client",
+  "version": "0.0.0",
+  "description": "ytdl-core wrapper to make it compatible in browsers",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uriah-dev/ytdl-client.git"
+  },
+  "keywords": [
+    "ytdl-browser",
+    "browser",
+    "client"
+  ],
+  "author": "uriah-dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uriah-dev/ytdl-client/issues"
+  },
+  "homepage": "https://github.com/uriah-dev/ytdl-client#readme"
+}
