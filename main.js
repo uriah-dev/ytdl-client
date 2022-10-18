@@ -7,7 +7,7 @@ const m3u8stream = reqqq('m3u8stream');
 // We import the library so it cached before using proxyquire
 const ytdlCore = reqqq('ytdl-core');
 
-var ytdl_client = (options) => {
+ytdl_client = (options) => {
     return proxyquire(ytdlCore, {
         miniget(url, opts){
             return realMiniget(options.proxyUrl + url, opts);
@@ -18,8 +18,6 @@ var ytdl_client = (options) => {
         ...(options.proxyquireStubs || {})
     });
 };
-
-module.exports = ytdl_client;
 },{"m3u8stream":13,"miniget":18,"proxyquireify":21,"ytdl-core":72}],2:[function(reqqq,module,exports){
 'use strict'
 
@@ -14093,7 +14091,7 @@ const normalizeIP = exports.normalizeIP = ip => {
 
 }).call(this)}).call(this,reqqq('_process'))
 },{"../package.json":78,"_process":20,"miniget":18}],78:[function(reqqq,module,exports){
-ytdl_client ={
+module.exports ={
   "name": "ytdl-core",
   "description": "YouTube video downloader in pure javascript.",
   "keywords": [
@@ -14157,4 +14155,7 @@ ytdl_client ={
 
 },{}]},{},[1]);
 
-export default ytdl_client;
+
+
+
+module.exports = ytdl_client;
