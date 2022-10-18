@@ -1,3 +1,6 @@
+#ytdl-clirent
+This is a wrapper around ytdl-core to make compatible with browsers. It can be used within frontend frameworks.
+
 ##How To Install
 
 ```
