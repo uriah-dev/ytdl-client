@@ -1,4 +1,4 @@
-#ytdl-clirent
+#ytdl-client:
 This is a wrapper around ytdl-core to make compatible with browsers. It can be used within frontend frameworks.
 
 ##How To Install
@@ -12,7 +12,7 @@ npm i ytdl-client
 ##Usage
 
 ```
-import ytdl-client from "ytdl-client";
+import ytdl_client from "ytdl-client";
     or
 const ytdl_client = require("ytdl-client");
 
