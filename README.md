@@ -4,11 +4,11 @@ This is a wrapper around ytdl-core to make compatible with browsers. It can be u
 
 ## How To Install
 
-```
-npm install ytdl-client
+> npm install ytdl-client
+
     or
-npm i ytdl-client
-```
+
+> npm i ytdl-client
 
 ## Usage
 
@@ -27,5 +27,5 @@ ytdl_client({
     .catch(err=>{throw err;});
 ```
 
-You should remember to make it awaitable
-You can use **cors anywhere** to set up a proxy
+You should remember to make it awaitable,
+You can use **cors-anywhere** to set up a proxy.

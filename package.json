@@ -1,6 +1,6 @@
 {
   "name": "ytdl-client",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "ytdl-core wrapper to make it compatible in browsers",
   "main": "main.js",
   "scripts": {
