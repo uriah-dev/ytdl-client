@@ -17,7 +17,7 @@ import ytdl_client from "ytdl-client";
     or
 const ytdl_client = require("ytdl-client");
 
-ytdl({
+ytdl_client({
     proxyUrl: 'https://cors-anywhere.herokuapp.com/',
     // proxyquireStubs: {}, arguments mapped directly to proxyquireify
     // For more info, see https://www.npmjs.com/package/proxyquireify
