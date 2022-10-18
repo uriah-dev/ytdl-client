@@ -4,7 +4,7 @@
   "description": "ytdl-core wrapper to make it compatible in browsers",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify browser.js -o main.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/uriah-dev/ytdl-client/issues"
   },
-  "homepage": "https://github.com/uriah-dev/ytdl-client#readme"
+  "homepage": "https://github.com/uriah-dev/ytdl-client#readme",
+  "dependencies": {
+    "m3u8stream": "^0.8.6",
+    "miniget": "^4.2.2",
+    "proxyquireify": "^3.2.1",
+    "ytdl-core": "^4.11.2"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  }
 }
